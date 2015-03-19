@@ -1,0 +1,180 @@
+
+body {
+	font-family: Helvica, Arial, sans-serif;
+	color: #dddcc5;
+	font-size: 1em;
+	font-weight: normal;
+	line-height: 1.2em
+	background-image: url("../images/presence.png");
+	background-repeat: repeat-x;
+	background-color: #1d2326;	
+	}
+	
+	/* ==========   primary container 	============= */
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+	}
+
+	/*--------- ADD SHORTHAND -----------------------------*/
+	
+	/*--------- DELETE UNNEEDED STUFF----------------------*/
+
+
+
+
+			/*---- Headings ----*/
+	
+h1 { 
+	font-family: "Architects Daughter", Georgia, sans-serif;
+	font-size: 3.5em;
+	color: #dddcc5;
+	margin: 80px auto;
+	line-height: 1.2em;
+	text-shadow: 3px 3px #611427;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;	
+	}
+	
+h2 {
+	font-family: "Shadows Into Light", Georgia, sans-serif;
+	font-size: 1.8em;
+	color: #611427;
+	text-shadow: 2px 2px #958976;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	}
+
+h3 {
+	font-family: "Shadows Into Light", Georgia, sans-serif;
+	font-size: 1.8em;
+	color: #958976;
+	text-shadow: 1px 2px #611427;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	}
+	
+ 
+	
+			/*-- Link Navigation Decoration --*/
+		
+#navigation {
+	width: 60%;
+	border-top: 1px solid #4480A6;
+	border-color: #611427;
+	padding: 30px;
+	line-height: 1.4em;
+	text-align: center;
+	margin: 80px auto;
+	/* 
+margin-left: auto;
+	margin-right: auto;
+ */
+	background: rgb(149,149,149); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(149,149,149,1) 0%, rgba(13,13,13,1) 25%, rgba(1,1,1,1) 50%, rgba(10,10,10,1) 53%, rgba(78,78,78,1) 76%, rgba(56,56,56,1) 87%, rgba(27,27,27,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(149,149,149,1)), color-stop(25%,rgba(13,13,13,1)), color-stop(50%,rgba(1,1,1,1)), color-stop(53%,rgba(10,10,10,1)), color-stop(76%,rgba(78,78,78,1)), color-stop(87%,rgba(56,56,56,1)), color-stop(100%,rgba(27,27,27,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 25%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 25%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 25%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 25%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE6-9 */
+
+	}
+	
+	
+#navigation > ul > li {
+	padding-left: 30px;
+    display: inline;
+   	list-style-type: none;
+	margin: 0 auto;
+	}
+	
+a:link {
+	color: #0000ff;
+	text-decoration: underline;
+	} 
+	
+a:visited {
+	color: #b9506c;
+	text-decoration: none;
+	}
+	
+a:hover {
+	color: #890125;
+	text-decoration: underline;
+	}
+	
+a:active {
+	color: #bdb3ff;
+	text-decoration: none;
+	}
+	
+	
+	
+			/*---- List Decoration ----*/
+	
+ul {
+	list-style-type: circle;
+	}
+	
+	
+	
+			/*-- IMAGES --*/
+	
+img {
+  	border-radius: 10px 10px 10px 10px;
+  	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.75);
+  	background: #353535;
+  	padding: 18px;
+  	border: 2px solid #454344;
+  	}
+  	
+  	
+  	
+  	
+  			/*-- Floats --*/
+  			
+
+.left_column {
+  	width: 30%;
+  	float: left;
+  	margin: 100px 10px 10px;
+  	padding: 10px;
+  	background:x #888;
+  	}
+  	
+.right_column {
+	width: 60%;
+	float: left;
+	margin: 100px 10px 10px;
+	padding: 10px ;
+	background: x#777;
+	}
+  	
+
+ #resources {
+ 	clear: both;
+ 	margin: 30px auto 50px;
+  	} 	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	/*  Bottom--- <(^_^)> ---Bottom  */
+
+	
