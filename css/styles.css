@@ -5,10 +5,10 @@ body {
 	font-size: 1em;
 	font-weight: normal;
 	line-height: 1.2em;
-	background-image: url("../images/presence.png");
-	background-repeat: repeat-x;
-	background-color: #1d2326;	
+	background: url("../images/presence.png") repeat-x,  url("../images/facebook-11.png")no-repeat right bottom #1d2326;
 	}
+	
+	
 	
 	/* ==========   primary container 	============= */
 
@@ -16,11 +16,6 @@ body {
 	margin: 0 auto;
 	width: 100%;
 	}
-
-	/*--------- ADD SHORTHAND -----------------------------*/
-	
-	/*--------- DELETE UNNEEDED STUFF----------------------*/
-
 
 
 
@@ -30,7 +25,7 @@ h1 {
 	font-family: "Architects Daughter", Georgia, sans-serif;
 	font-size: 3.5em;
 	color: #dddcc5;
-	margin: 80px auto;
+	margin: 5% auto;
 	line-height: 1.2em;
 	text-shadow: 3px 3px #611427;
 	text-align: center;
@@ -64,24 +59,14 @@ h3 {
 		
 #navigation {
 	width: 60%;
-	border-top: 1px solid #4480A6;
-	border-color: #611427;
+	font-size: 1.5em;
+	border-top: 2px solid #611427;
+	border-bottom: 1px solid #611427;
 	padding: 30px;
 	line-height: 1.4em;
 	text-align: center;
-	margin: 80px auto;
-	/* 
-margin-left: auto;
-	margin-right: auto;
- */
-	background: rgb(149,149,149); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(149,149,149,1) 0%, rgba(13,13,13,1) 25%, rgba(1,1,1,1) 50%, rgba(10,10,10,1) 53%, rgba(78,78,78,1) 76%, rgba(56,56,56,1) 87%, rgba(27,27,27,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(149,149,149,1)), color-stop(25%,rgba(13,13,13,1)), color-stop(50%,rgba(1,1,1,1)), color-stop(53%,rgba(10,10,10,1)), color-stop(76%,rgba(78,78,78,1)), color-stop(87%,rgba(56,56,56,1)), color-stop(100%,rgba(27,27,27,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 25%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 25%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 25%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 25%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE6-9 */
+	margin: 3% auto;
+	background: linear-gradient(to bottom,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 25%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%) 
 
 	}
 	
@@ -89,14 +74,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', end
 #navigation > ul > li {
 	padding-left: 30px;
     display: inline;
-/*     line-height: 1.2em; ??????? */
 	list-style-type: none;
-	margin: 0 auto;
 	}
 	
 a:link {
 	color: #0000ff;
-	text-decoration: underline;
+	text-decoration: none;
 	} 
 	
 a:visited {
@@ -124,9 +107,11 @@ ul {
 	
 	
 	
-			/*-- IMAGES --*/
+			/*-- Image Decoration --*/
 	
 img {
+	width: 300px;
+	height: auto;
   	border-radius: 10px 10px 10px 10px;
   	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.75);
   	background: #353535;
@@ -141,26 +126,29 @@ img {
   			
 
 .left_column {
-  	width: 30%;
+  	width: 32%;
   	float: left;
-  	margin: 100px 10px 10px;
-  	padding: 10px;
-  	background:x #888;
+  	margin: 8% 2% 2%;
+  	padding: 2%;
   	}
   	
 .right_column {
-	width: 60%;
+	width: 52%;
 	float: left;
-	margin: 100px 10px 10px;
-	padding: 10px ;
-	background: x#777;
+	margin: 8% 2% 2%;
+	padding: 2% ;
 	}
   	
 
- #resources {
- 	clear: both;
- 	margin: 30px auto 50px;
-  	} 	
+			/*-- Resources --*/
+
+ 
+#resources {
+ 	overflow: hidden;
+ 	margin: 2%;
+ 	padding: 10px;
+ 	}
+	
   	
   	
   	
